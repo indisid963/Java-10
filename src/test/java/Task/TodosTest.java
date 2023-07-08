@@ -77,7 +77,7 @@ class TodosTest {
         todos.add(meeting);
 
         Task[] expected = {meeting};
-        Task[] actual = todos.search("выкатка");
+        Task[] actual = todos.search("версии");
         Assertions.assertArrayEquals(expected, actual);
     }
 
